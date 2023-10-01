@@ -1,0 +1,80 @@
+/* Content Container */
+#content {
+    max-width: 1600px; /* Maximum width for the content container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add internal spacing to the container */
+}
+
+/* Navigation Links */
+nav a {
+    text-align: center; /* Center text within navigation links */
+    text-decoration: none; /* Remove default underline decoration */
+    color: #333; /* Set text color for navigation links */
+    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+}
+
+nav a:hover {
+    background-color: #000; /* Background color on hover for navigation links */
+    color: #fff; /* Text color on hover for navigation links */
+}
+
+/* Hero Message */
+#hero-msg {
+    text-align: center; /* Center text within the hero message */
+    background-color: rgba(20, 30, 13, 0.7); /* Semi-transparent background color for the hero message */
+    padding: 20px; /* Add internal spacing to the hero message */
+    color: #fff; /* Set text color for the hero message */
+}
+
+/* Centered Text */
+.button-box,
+main section {
+    text-align: center; /* Center text within elements with the "button-box" class and within main sections */
+}
+
+/* Background Container */
+#background {
+    height: 725px; /* Set the height of the background container */
+    background-color: #ffae0070; /* Yellow background color for the background container */
+}
+
+/* Image Layout */
+.image-container {
+    display: inline-block; /* Display elements side by side */
+    margin-right: 20px; /* Add right margin for image separation */
+}
+
+/* Background Colors */
+body {
+    background-color: #ff990060; /* Light background color for the page body */
+}
+
+.book, .join {
+    background-color: #a76c00; /* Green background color for "book" and "join" links */
+    color: #fff; /* Text color for "book" and "join" links */
+    text-align: center; /* Center text within "book" and "join" links */
+    padding: 10px 20px; /* Add internal spacing to "book" and "join" links */
+    border-radius: 5px; /* Add rounded corners to "book" and "join" links */
+    text-decoration: none; /* Remove default underline decoration */
+    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+}
+
+.book:hover, .join:hover {
+    background-color: #805700; /* Darker green background color on hover for "book" and "join" links */
+}
+
+/* Message Section */
+.msg {
+    background-color: #ff990060; /* Light gray background color for the message section */
+    padding: 20px; /* Add internal spacing to the message section */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 10px 0; /* Add internal spacing to the footer */
+    text-align: center; /* Center text within the footer */
+    font-size: 1.2em;
+    text-decoration: underline;
+}
