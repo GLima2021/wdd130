@@ -43,6 +43,11 @@ main section {
     display: inline-block; /* Display elements side by side */
     margin-right: 20px; /* Add right margin for image separation */
 }
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
 
 /* Background Colors */
 body {
@@ -59,7 +64,7 @@ body {
     transition: background-color 0.3s ease; /* Add a smooth background color transition */
 }
 
-.book:hover, .join:hover {
+.book:hover, .join:hover .aboutme {
     background-color: #805700; /* Darker green background color on hover for "book" and "join" links */
 }
 
@@ -78,3 +83,4 @@ footer {
     font-size: 1.2em;
     text-decoration: underline;
 }
+
