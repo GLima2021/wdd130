@@ -21,9 +21,10 @@ nav a:hover {
 /* Hero Message */
 #hero-msg {
     text-align: center; /* Center text within the hero message */
-    background-color: rgba(20, 30, 13, 0.7); /* Semi-transparent background color for the hero message */
-    padding: 20px; /* Add internal spacing to the hero message */
-    color: #fff; /* Set text color for the hero message */
+    background-color: rgba(61, 52, 0, 0.7); /* Semi-transparent background color for the hero message */
+    padding: 50px; /* Add internal spacing to the hero message */
+    color: #ffffff; /* Set text color for the hero message */
+    margin: 20px 
 }
 
 /* Centered Text */
@@ -45,26 +46,26 @@ main section {
 }
 .social a {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
     
 }
 
 /* Background Colors */
 body {
-    background-color: #ff990060; /* Light background color for the page body */
+    background-color: #f1a128bd; /* Light background color for the page body */
 }
 
-.book, .join {
+.book, .join .back {
     background-color: #a76c00; /* Green background color for "book" and "join" links */
     color: #fff; /* Text color for "book" and "join" links */
     text-align: center; /* Center text within "book" and "join" links */
-    padding: 10px 20px; /* Add internal spacing to "book" and "join" links */
+    padding: 5px 10px; /* Add internal spacing to "book" and "join" links */
     border-radius: 5px; /* Add rounded corners to "book" and "join" links */
     text-decoration: none; /* Remove default underline decoration */
-    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+    
 }
 
-.book:hover, .join:hover .aboutme {
+.book:hover, .join:hover .aboutme  {
     background-color: #805700; /* Darker green background color on hover for "book" and "join" links */
 }
 
@@ -75,12 +76,17 @@ body {
 }
 
 /* Footer */
-footer {
-    background-color: #333; /* Dark background color for the footer */
+footer, .aboutme  .social2 {
+    background-color: #422801bd; /* Dark background color for the footer */
     color: #fff; /* Text color for the footer */
     padding: 10px 0; /* Add internal spacing to the footer */
     text-align: center; /* Center text within the footer */
     font-size: 1.2em;
-    text-decoration: underline;
+    margin: 20px
 }
 
+.button {
+
+    background-color: #ff990060
+
+}
