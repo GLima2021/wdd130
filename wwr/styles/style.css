@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
 /* Apply the 'Gabarito' font to the body of the page with backup fonts */
-body, .msg h2 {
+body,
+.msg h2 {
     font-family: 'Gabarito', sans-serif;
     line-height: 1.5em;
     font-size: 22px;
@@ -11,6 +12,7 @@ body, .msg h2 {
     margin-top: 50px;
     border-radius: 5px;
 }
+
 h2 {
     margin: 0;
 }
@@ -35,7 +37,7 @@ h2 {
 
 /* Navigation Links */
 nav a {
-    
+
     margin-top: 50px;
     /* Use margin to space out the content on your page */
     padding: 35px;
@@ -46,10 +48,10 @@ nav a {
     /* Remove default underline decoration */
     color: #ffff
         /* Set text color for navigation links */
-        
-        
-   
-   
+
+
+
+
 
 }
 
@@ -98,11 +100,11 @@ main section {
     /* Add right margin for image separation */
 }
 
-.social  {
+.social {
     display: inline-block;
     margin-right: 5px;
     color: #000000;
-    
+
 
 }
 
@@ -120,7 +122,8 @@ nav a:hover {
 }
 
 
-.book,.join {
+.book,
+.join {
     background-color: var(--secondary-color);
     /* Background color for "book" and "join" links */
     color: #0c6ca4;
@@ -134,26 +137,26 @@ nav a:hover {
     text-decoration: none;
     /* Remove default underline decoration */
     text-decoration: underline;
-    
+
 
 }
 
-.book:hover, .join:hover {
+.book:hover,
+.join:hover {
     background-color: #f8ca55;
     /* Darker green background color on hover for "book" and "join" links */
 }
 
 /* Message Section */
-.msg, .home-title {
+.msg,
+.home-title {
     margin: 0;
     margin-top: 50px;
     padding: 20px;
     /* Add internal spacing to the message section */
     background-color: #f8ca55;
-    color: #000 
-   
-
-}   
+    color: #000
+}
 
 /* Footer */
 footer {
@@ -174,8 +177,8 @@ footer {
 footer p {
     font-size: 1.2em;
     text-decoration: underline;
-}    
-    
+}
+
 
 .button {
     background-color: var(--accent2-color);
@@ -185,12 +188,13 @@ footer p {
     width: 150px;
     margin: 0;
     padding: 0;
-   
+
 }
 
 .card-img {
     border: 10px solid #0c6ca4;
 }
+
 main section img {
     box-sizing: border-box;
 }
