@@ -1,92 +1,145 @@
 /* Content Container */
 #content {
-    max-width: 1600px; /* Maximum width for the content container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add internal spacing to the container */
+    max-width: 1600px;
+    /* Maximum width for the content container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add internal spacing to the container */
 }
 
 /* Navigation Links */
 nav a {
-    text-align: center; /* Center text within navigation links */
-    text-decoration: none; /* Remove default underline decoration */
-    color: #333; /* Set text color for navigation links */
-    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+    text-align: center;
+    /* Center text within navigation links */
+    text-decoration: none;
+    /* Remove default underline decoration */
+    color: #ffff
+        /* Set text color for navigation links */
+
 }
 
+
 nav a:hover {
-    background-color: #000; /* Background color on hover for navigation links */
-    color: #fff; /* Text color on hover for navigation links */
+    background-color: var(--secondary-color);
+    /* Background color on hover for navigation links */
+    color: var(--accent2-color);
+    /* Text color on hover for navigation links */
 }
 
 /* Hero Message */
 #hero-msg {
-    text-align: center; /* Center text within the hero message */
-    background-color: rgba(61, 52, 0, 0.7); /* Semi-transparent background color for the hero message */
-    padding: 50px; /* Add internal spacing to the hero message */
-    color: #ffffff; /* Set text color for the hero message */
-    margin: 20px 
+    text-align: center;
+    /* Center text within the hero message */
+    background-color: #f8ca55;
+    /* Semi-transparent background color for the hero message */
+    padding: 50px;
+    /* Add internal spacing to the hero message */
+    color: #ffffff;
+    /* Set text color for the hero message */
+    margin: 20px;
 }
 
 /* Centered Text */
 .button-box,
 main section {
-    text-align: center; /* Center text within elements with the "button-box" class and within main sections */
+    text-align: center;
+    /* Center text within elements with the "button-box" class and within main sections */
+
 }
 
 /* Background Container */
 #background {
-    height: 725px; /* Set the height of the background container */
-    background-color: #ffae0070; /* Yellow background color for the background container */
+    height: 725px;
+    /* Set the height of the background container */
+    background-color: var(--accent1-color);
+    /* Background color for the background container */
 }
 
 /* Image Layout */
 .image-container {
-    display: inline-block; /* Display elements side by side */
-    margin-right: 20px; /* Add right margin for image separation */
+    display: inline-block;
+    /* Display elements side by side */
+    margin-right: 20px;
+    /* Add right margin for image separation */
 }
-.social a {
+
+.social  {
     display: inline-block;
     margin-right: 5px;
+    color: #000000;
     
+
 }
 
 /* Background Colors */
 body {
-    background-color: #f1a128bd; /* Light background color for the page body */
+    background-color: #fcfbfb;
 }
 
-.book, .join .back {
-    background-color: #a76c00; /* Green background color for "book" and "join" links */
-    color: #fff; /* Text color for "book" and "join" links */
-    text-align: center; /* Center text within "book" and "join" links */
-    padding: 5px 10px; /* Add internal spacing to "book" and "join" links */
-    border-radius: 5px; /* Add rounded corners to "book" and "join" links */
-    text-decoration: none; /* Remove default underline decoration */
-    
+header {
+    background-color: #b8e5ff
 }
 
-.book:hover, .join:hover .aboutme  {
-    background-color: #805700; /* Darker green background color on hover for "book" and "join" links */
+nav a:hover {
+    background-color: #f8ca55;
+}
+
+
+.book,.join {
+    background-color: var(--secondary-color);
+    /* Background color for "book" and "join" links */
+    color: #0c6ca4;
+    /* Text color for "book" and "join" links */
+    text-align: center;
+    /* Center text within "book" and "join" links */
+    padding: 5px 10px;
+    /* Add internal spacing to "book" and "join" links */
+    border-radius: 5px;
+    /* Add rounded corners to "book" and "join" links */
+    text-decoration: none;
+    /* Remove default underline decoration */
+    text-decoration: underline;
+
+}
+
+.book:hover, .join:hover {
+    background-color: #f8ca55;
+    /* Darker green background color on hover for "book" and "join" links */
 }
 
 /* Message Section */
-.msg {
-    background-color: #ff990060; /* Light gray background color for the message section */
-    padding: 20px; /* Add internal spacing to the message section */
-}
+.msg, .home-title {
+    background-color: #f8ca55;
+    padding: 20px;
+    /* Add internal spacing to the message section */
+    color: #000
+}   
 
 /* Footer */
-footer, .aboutme  .social2 {
-    background-color: #422801bd; /* Dark background color for the footer */
-    color: #fff; /* Text color for the footer */
-    padding: 10px 0; /* Add internal spacing to the footer */
-    text-align: center; /* Center text within the footer */
+footer {
+    background-color: #0c6ca4;
+    /* Dark background color for the footer */
+    color: #ffff;
+    /* Text color for the footer */
+    padding: 10px 0;
+    /* Add internal spacing to the footer */
+    text-align: center;
+    /* Center text within the footer */
     font-size: 1.2em;
-    margin: 20px
+    margin: 20px;
 }
 
+footer p {
+    font-size: 1.2em;
+    text-decoration: underline;
+}    
+    
+
 .button {
+    background-color: var(--accent2-color);
+}
 
-    background-color: #ff990060
-
+.icon {
+    width: 150px;
 }
