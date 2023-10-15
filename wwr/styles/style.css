@@ -114,7 +114,10 @@ body {
 }
 
 header {
-    background-color: #b8e5ff
+    border: 10px solid #f8ca55;
+
+    background-color: #0c6ca4
+    
 }
 
 nav a:hover {
