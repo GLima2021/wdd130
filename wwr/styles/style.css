@@ -1,3 +1,57 @@
+@media screen and (max-width: 900px) {
+
+
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    #hero {
+        margin-top: 0;
+    }
+
+    #hero-msg {
+        margin-top: 0;
+    }
+
+    #hero-msg h4 {
+        display: none;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #0c6ca4;
+    }
+
+
+
+    #background {
+        display: none;
+    }
+
+    .mountains,
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
+
 /* Import the Google Fonts font */
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
@@ -13,8 +67,151 @@ body,
     border-radius: 5px;
 }
 
-h2 {
+header {
+    display: grid;
+    grid-template-columns: 90px auto;
+    width: 98, 5%;
+    margin-top: -80px;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+
+
+
+}
+
+
+#hero-msg h4 {
+    color: #0c6ca4;
+
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: -100px;
+    width: 100%;
+    height: 130%;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+#logo_link {
+    padding-top: 1px;
+
+
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    justify-items: right;
+    align-items: right;
+
+}
+
+.home-hero-box {
+    margin-top: -80px;
+    width: 100%;
+    height: 110%;
+
+}
+
+.rivers-card {
+
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+
+}
+
+.camping-card {
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+}
+
+.rapids-card {
+    grid-column: 8 / 10;
+    grid-row: 2 / 3;
+}
+
+.forest {
+    grid-column: 8 / 11;
+    grid-row: 2 / 3;
+}
+
+#background {
+    grid-column: 1 / 11;
+    grid-row: 4 / 9;
+}
+
+.mountains {
+    grid-column: 2 / 7;
+    grid-row: 5 / 8;
+}
+
+.msg1 {
+    grid-column: 6 / 10;
+    grid-row: 6 / 7;
+}
+
+.card-img {
+
+    border: 5px solid #0c6ca4;
+
+}
+
+/* Footer */
+footer {
+
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8ca55;
+    /* Dark background color for the footer */
+    color: #ffff;
+    /* Text color for the footer */
+    padding: 5px 0;
+    /* Add internal spacing to the footer */
+    text-align: center;
+    /* Center text within the footer */
+    font-size: 16px;
+    margin: 50px;
     margin: 0;
+    margin-top: 400px;
+
+}
+
+.home-footer a {
+    color: #ffff;
 }
 
 /* Apply the 'Gabarito' font to titles with backup fonts */
@@ -22,6 +219,82 @@ h2 {
     font-family: 'Gabarito', sans-serif;
     font-size: 2em;
     margin-top: 50px;
+}
+
+
+.card-img,
+.camping-card,
+.rapids-card,
+.forest,
+.rivers-card {
+
+    display: inline-block;
+    margin: 10px;
+    transition: .5s;
+    width: 44%;
+    height: 44%;
+    vertical-align: top;
+    margin-left: 20px;
+    justify-items: center;
+    align-items: center;
+    color: #0c6ca4;
+    text-decoration: underline;
+
+
+
+}
+
+
+
+.msg1 {
+    background-color: #f8ca55;
+    box-shadow: 5px 5px 10px #0c6ca4;
+    padding: 35px;
+    font-size: 15px;
+    color: #0c6ca4;
+    width: 30%;
+    height: 20%;
+    position: relative;
+    left: 54%;
+    margin-top: -500px;
+
+}
+
+
+
+.forest4 {
+
+
+    display: inline-block;
+    margin: 10px;
+    transition: .5s;
+    width: 44%;
+    height: 44%;
+    vertical-align: top;
+    margin-left: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #0c6ca4;
+    text-decoration: underline;
+
+}
+
+.card-img:hover {
+    opacity: .5;
+    transform: scale(1.1);
+}
+
+
+.mountains {
+    width: 46%;
+    position: absolute;
+    height: 55%;
+    left: 140px;
+    margin-top: 60px;
+
+
+
 }
 
 
@@ -37,98 +310,87 @@ h2 {
 
 /* Navigation Links */
 nav a {
+    font-size: 18px;
 
-    margin-top: 50px;
+    background-color: #0c6ca4;
+    border-radius: 15px;
+    margin-top: 76px;
+    height: 5px;
+    justify-items: center;
+    align-items: center;
+
     /* Use margin to space out the content on your page */
-    padding: 35px;
+    padding: 20px;
     /* Use padding to space out the content on your page */
     text-align: center;
     /* Center text within navigation links */
     text-decoration: none;
     /* Remove default underline decoration */
-    color: #ffff
-        /* Set text color for navigation links */
-
-
-
-
-
+    color: #ffffff;
+    /* Set text color for navigation links */
 }
 
+.home-nav {
+    line-height: 0;
+    margin-inline-end: 100px;
 
-nav a:hover {
-    background-color: var(--secondary-color);
-    /* Background color on hover for navigation links */
-    color: var(--accent2-color);
-    /* Text color on hover for navigation links */
 }
 
 /* Hero Message */
 #hero-msg {
     text-align: center;
     /* Center text within the hero message */
-    background-color: #f8ca55;
+    background-color: #f8ca5500;
     /* Semi-transparent background color for the hero message */
     padding: 50px;
     /* Add internal spacing to the hero message */
     color: #ffffff;
     /* Set text color for the hero message */
-    margin: 20px;
+    margin-top: 120px;
+
+    justify-items: center;
+    align-items: center;
 }
 
 /* Centered Text */
-.button-box,
 main section {
     text-align: center;
     /* Center text within elements with the "button-box" class and within main sections */
 
 }
 
-/* Background Container */
-#background {
-    height: 725px;
-    /* Set the height of the background container */
-    background-color: var(--accent1-color);
-    /* Background color for the background container */
+.join {
+    background-color: #0c6ca4;
+    border-radius: 40px;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: underline;
 }
 
-/* Image Layout */
-.image-container {
-    display: inline-block;
-    /* Display elements side by side */
-    margin-right: 20px;
-    /* Add right margin for image separation */
-}
+
 
 .social {
     display: inline-block;
     margin-right: 5px;
-    color: #000000;
-
+    color: #fcfcfc;
 
 }
 
 /* Background Colors */
 body {
-    background-color: #fcfbfb;
-}
+    background-color: #ffffff;
 
-header {
-    border: 10px solid #f8ca55;
-
-    background-color: #0c6ca4
-    
 }
 
 nav a:hover {
     background-color: #f8ca55;
+    box-shadow: 5px 5px 10px #0c6ca4;
 }
 
 
-.book,
-.join {
-    background-color: var(--secondary-color);
-    /* Background color for "book" and "join" links */
+.book {
+
     color: #0c6ca4;
     /* Text color for "book" and "join" links */
     text-align: center;
@@ -151,53 +413,90 @@ nav a:hover {
 }
 
 /* Message Section */
-.msg,
+
 .home-title {
     margin: 0;
-    margin-top: 50px;
+    margin-top: 190px;
     padding: 20px;
     /* Add internal spacing to the message section */
-    background-color: #f8ca55;
-    color: #000
+    text-decoration-color: #f8ca55;
+    border-bottom: 6px solid #0c6ca4;
+    background-color: #fcfbfb;
+    color: #0c6ca4;
+
 }
 
-/* Footer */
-footer {
-    background-color: #0c6ca4;
-    /* Dark background color for the footer */
-    color: #ffff;
-    /* Text color for the footer */
-    padding: 10px 0;
-    /* Add internal spacing to the footer */
-    text-align: center;
-    /* Center text within the footer */
-    font-size: 1.2em;
-    margin: 20px;
-    margin: 0;
-    margin-top: 50px;
+.home-title1 {
+
+    background-color: #ffffff;
+    color: #0c6ca4;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+
+
 }
+
+.button-box,
+.book1 {
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #0c6ca4;
+    margin-top: 40%;
+    width: 150px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 footer p {
     font-size: 1.2em;
     text-decoration: underline;
 }
 
-
-.button {
-    background-color: var(--accent2-color);
-}
-
 .icon {
-    width: 150px;
-    margin: 0;
-    padding: 0;
+    margin-top: 15px;
+    margin-right: 7px;
+    width: 8%;
+    height: 8%;
+    color: #0c6ca4;
 
 }
 
-.card-img {
-    border: 10px solid #0c6ca4;
+.icon4 {
+    margin-top: 40px;
+    margin-right: 7px;
+    width: 8%;
+    height: 8%;
+
 }
 
-main section img {
+.blue-box {
+
+    width: 100%;
+    height: 600px;
+    background-color: #0c6ca4;
+    z-index: -1;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    z-index: -2;
+
+
+
+}
+
+.main section img {
     box-sizing: border-box;
+    box-shadow: 5px 5px 10px #0c6ca4;
+}
+
+.icon1 {
+    width: 120px;
+    margin-top: 35px;
+    padding: 0;
 }
