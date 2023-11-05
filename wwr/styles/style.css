@@ -52,16 +52,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-  
-}
+@media screen and (max-width: 768px) {}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
- 
-}
-@media screen and (min-width: 1025px) {
- 
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 1025px) {}
 
 /* Import the Google Fonts font */
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
@@ -511,3 +506,14 @@ footer p {
     margin-top: 35px;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+

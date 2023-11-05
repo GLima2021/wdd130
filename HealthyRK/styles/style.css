@@ -1,0 +1,145 @@
+:root {
+  --primary-color: #845420;
+  --secondary-color: #916C44;
+  --accent1-color: #744615;
+  --accent2-color: #bb9165;
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+  --headline-color-on-white: #845420;
+  --headline-color-on-color: white;
+  --paragraph-color-on-white: #845420;
+  --paragraph-color-on-color: white;
+  --paragraph-background-color: #bb9165;
+  --nav-link-color: #845420;
+  --nav-background-color: #bb9165;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #bb9165;
+}
+
+body,
+html {
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+  width: 97%;
+  height: 100%;
+  z-index: 1;
+  justify-self: center;
+  justify-items: center;
+  align-items: center;
+
+
+}
+
+header {
+  background-image: url('https://imgur.com/utwFtQB.png');
+  background-size: 100%;
+  width: 110%;
+  height: 350px;
+  text-align: center;
+  margin-left: -100px;
+  margin-top: -8px;
+
+
+
+
+}
+
+.header-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  text-align: center;
+
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+}
+
+header>h1,
+header>h2 {
+  color: var(--headline-color-on-color);
+}
+
+.icon {
+  z-index: 3;
+  width: 350px;
+  height: 350px;
+  margin-top: -7%;
+  margin-right: 600px;
+}
+
+.nav-content {
+
+  margin-top: 3%;
+}
+
+
+.nav {
+  text-decoration: none;
+  border: 2px solid #fff;
+  color: #ffffff;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-left: 150px;
+  
+}
+
+
+.nav:hover {
+  background-color: #bb9165;
+  color: #fff;
+  
+}
+
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home1 {
+  border: 5px solid #744615;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.social1 {
+  display: inline-block;
+  color: #fcfcfc;
+  margin-left: 5px;
+}
+
+.social-container {
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
+h2,
+h3 {
+  color: #744615;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
