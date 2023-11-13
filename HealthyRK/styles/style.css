@@ -1,6 +1,4 @@
-@media screen and (max-width: 900px) {
-
-
+@media screen and (max-width: 768px)  {
   #hero,
   .home-grid {
       display: block;
@@ -34,8 +32,6 @@
       color: #0c6ca4;
   }
 
-
-
   #background {
       display: none;
   }
@@ -52,11 +48,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
-@media screen and (min-width: 1025px) {}
 
 :root {
   --primary-color: #845420;
