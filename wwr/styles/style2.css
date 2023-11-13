@@ -1,4 +1,4 @@
-/* Define as variáveis de cores no :root */
+
 :root {
     --primary-color: #f4bc34;
     --secondary-color: #3fa4e3;
@@ -15,17 +15,17 @@
     --nav-hover-background-color: #0c6ca4;
 }
 
-/* Reset de margem e preenchimento para evitar problemas de espaçamento padrão */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Import the Google Fonts font */
+
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
-/* Apply the 'Gabarito' font to the body of the page with backup fonts */
+
 body,
 .msg {
     font-family: 'Gabarito', sans-serif;
@@ -36,12 +36,12 @@ body,
     margin-top: 50px;
     border-radius: 5px;
     background-color: white;
-    /* Define o fundo do body como branco */
+   
     text-align: center;
-    /* Alinha todo o conteúdo no centro */
+    
 }
 
-/* Header styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -82,7 +82,7 @@ header {
     background-color: var(--nav-hover-background-color);
 }
 
-/* Main content styles */
+
 main {
     max-width: 1600px;
     margin: 0 auto;
@@ -109,13 +109,13 @@ main h3 {
     color: var(--accent1-color);
 }
 
-/* Estilo para a imagem */
+
 .image-container2 img {
     box-shadow: 5px 5px 10px #0c6ca4;
     margin: 0 auto;
 }
 
-/* Footer styles */
+
 footer {
     background-color: var(--accent2-color);
     color: var(--headline-color-on-color);
@@ -136,24 +136,24 @@ footer {
     height: 60px;
 }
 
-/* CSS */
+
 .image-container2 {
     display: flex;
     justify-content: center;
-    /* Centraliza horizontalmente */
+   
     align-items: center;
-    /* Centraliza verticalmente */
+  
     text-align: center;
     margin-top: 40px;
 }
 
 .image2 {
     width: 40%;
-    /* Defina a largura desejada para as imagens */
+    
     height: auto;
-    /* Mantém a proporção da imagem */
+    
     margin: 10px;
-    /* Espaçamento entre as imagens */
+   
 }
 
 main h2 {
