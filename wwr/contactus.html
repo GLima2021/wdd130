@@ -9,24 +9,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap">
 
     <style>
+        /* Estilos adicionais que você já incluiu */
         #feedback {
-            background-color: #F4F4F4;
+            background-color: antiquewhite;
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             padding: .5em;
             display: none;
-            font-size: 18px;
-            font-weight: bold;
-            color: #007BFF;
         }
 
         .moveDown {
             margin-top: 3em;
         }
 
-        /* Add this style to improve the form appearance */
+        /* Adicione este estilo para melhorar a aparência do formulário */
         form {
             background-color: #FFFFFF;
             padding: 2em;
@@ -80,7 +78,8 @@
         <div class="header-container2">
             <img class="icon" src="https://i.imgur.com/Iwdpokx.png" alt="logo image">
             <nav class="nav-content2">
-                <a href="file:///C:/Users/Gabriel%20Lima/Desktop/BYUIDAHO/WDD130/wwr/index.html#" class="nav2">Go back to the Home Page</a>
+                <a href="file:///C:/Users/Gabriel%20Lima/Desktop/BYUIDAHO/WDD130/wwr/index.html#" class="nav2">Go back
+                    to the Home Page</a>
             </nav>
         </div>
     </header>
@@ -97,53 +96,28 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit">Send your Message</button>
         </form>
     </main>
     <footer>
     </footer>
 
+  
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
         // get the form so we can read what was entered in it.
-        const formElement = document.getElementById('contactForm');
+        const formElement = document.forms[0];
         // add a 'listener' to wait for a submission of our form. When that happens run the code below.
         formElement.addEventListener('submit', function(e) {
-            // prevent the default action of the form submission
+            // stop the form from doing the default action.
             e.preventDefault();
-            // retrieve the user inputs
-            const name = document.getElementById('user_name').value;
-            const email = document.getElementById('user_email').value;
-            const message = document.getElementById('message').value;
-
-            // make the ajax request
-            const xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://api.dothi.net/mail', true);
-            xhr.setRequestHeader('Content-Type', 'application/json');
-
-            xhr.onload = function() {
-                if (xhr.status === 200) {
-                    // handle the success condition. This could be shown a message or a page reload.
-                    feedbackElement.innerHTML = 'Thanks for your feedback!';
-                    feedbackElement.style.display = 'block';
-                    setTimeout(function() {
-                        feedbackElement.style.display = 'none';
-                    }, 3000);
-                    // reset the form
-                    formElement.reset();
-                } else {
-                    // handle the error condition. This could be an alert or setting feedback text.
-                    feedbackElement.innerHTML = 'There was a problem with your submission. Please try again.';
-                    feedbackElement.style.display = 'block';
-                    setTimeout(function() {
-                        feedbackElement.style.display = 'none';
-                    }, 3000);
-                }
-            };
-
-            // convert the form data into JSON and send it as the payload of the request
-            xhr.send(JSON.stringify({ name, email, message }));
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
         });
     </script>
 </body>
