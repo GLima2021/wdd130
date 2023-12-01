@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300&display=swap');
+
+
+:root {
+    --grid-gap: 20px;
+    --grid-unit: calc(100% / 12);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: var(--grid-gap);
+    height: 100vh;
+    padding: var(--grid-gap);
+}
+
+
+body {
+    color: #e6005c;
+}
+
+body {
+    background-color: #240628;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    height: 99%;
+    margin-top: -15px;
+    margin-left: -10px;
+    background-color: #320c28;
+    position: fixed;
+    width: 17%;
+
+}
+
+.atividades {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    height: 108%;
+    margin-top: -12px;
+    border-radius: 20px;
+    background-color: #320c28;
+    margin-left: 660px;
+    width: 60%;
+}
+
+
+
+
+.explore {
+    z-index: -1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    height: 5%;
+    margin-top: -5px;
+    border-radius: 20px;
+    background-color: #320c28;
+    margin-left: 80%;
+    width: 15%;
+    position: fixed;
+}
+
+.explore h2 {
+
+    align-items: center;
+    margin-left: 25px;
+    margin-top: -2%;
+
+}
+
+.img7 {
+    z-index: 1;
+    display: flex;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 225px;
+    position: fixed;
+
+
+}
+.img8 {
+    z-index: 1;
+    display: flex;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 45px;
+    position: fixed;
+
+
+}
+.img5 {
+    position: fixed;
+    display: flex;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 35px;
+
+
+}
+.img6 {
+    display: flex;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    margin-left: -20px;
+
+
+}
+
+.content-img5 {
+    margin-top: -50%;
+    margin-right: -200%;
+
+}
+
+
+.bem-vinda {
+    white-space: nowrap;
+    margin-left: 290px;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    margin-top: -40px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.evolução {
+    font-size: 15px;
+    white-space: nowrap;
+    margin-left: -390px;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.evolução3 {
+    display: flex;
+    font-size: 15px;
+    white-space: nowrap;
+    margin-left: 95%;
+    color: #fff;
+    margin-top: 480px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.destaque {
+    z-index: 1;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #e6005c;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.evolução1 p {
+    margin: 0;
+    font-size: 12px;
+
+}
+
+main {
+
+    border: 2px solid #e6005c;
+    padding: 10px;
+    background-color: #320c28;
+
+}
+
+nav {
+    grid-column: 2 / 4;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    z-index: -1;
+    background-color: #320c28;
+    margin-top: 7%;
+    margin-left: 20%;
+    width: 45%;
+    height: 45%;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.semanas {
+    margin-left: 350px;
+    margin-top: -20%;
+    text-align: center;
+    position: fixed;
+
+
+
+}
+
+.semanas p {
+    color: #fff;
+    margin: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+.destaque1 {
+    z-index: 1;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #e6005c;
+    margin-left: 5px;
+    vertical-align: middle;
+
+}
+
+.destaque1 p {
+    margin: 0;
+    font-size: 12px;
+    display: inline-block;
+
+}
+
+
+.evolução1 {
+    margin-left: 530px;
+    margin-top: -560px;
+    text-align: center;
+    position: fixed;
+
+
+
+}
+
+.evolução1 p {
+    color: #fff;
+    margin: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+.porcetagem {
+    margin-left: 270px;
+    margin-top: -35%;
+    text-align: center;
+    position: fixed;
+
+
+
+}
+
+.porcetagem p {
+    color: #fff;
+    margin: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+.cursos {
+    margin-left: 352px;
+    margin-top: -2%;
+    text-align: center;
+    position: fixed;
+
+}
+
+
+
+.cursos p {
+    color: #fff;
+    margin: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    text-align: center;
+
+
+}
+
+.imagens {
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+.imagens img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+
+
+
+.graph {
+    margin-left: 5%;
+    color: #e6005c;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    margin-top: -100%;
+    display: flex;
+    transform: rotate(-5deg);
+
+
+
+}
+
+
+main {
+    margin-top: 100%;
+    z-index: -1;
+    grid-column: 2 / 4;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-top: 32%;
+    margin-left: 20%;
+    width: 45%;
+    height: 32%;
+    border-radius: 20px;
+    position: fixed;
+}
+
+main h2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+
+h2 {
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.dashboard h2 {
+    margin: 20%;
+    margin-left: 5px;
+    justify-items: space-between;
+    margin-bottom: 20px;
+
+}
+
+
+.atividades2 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    height: 31%;
+    margin-top: 60px;
+    border-radius: 20px;
+    background-color: #320c28;
+    margin-left: -10px;
+    width: 380px;
+    position: fixed;
+}
+
+.img10 {
+    width: 30px;
+    height: 30px;
+    margin-left: 320px;
+    margin-top: -30px;
+
+}
+.img11 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 30px;
+    position: fixed;
+}
+
+.img12 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 110px;
+    position: fixed;
+  
+}
+
+.img13{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 200px;
+}
+
+.img14{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: -340px;
+    margin-top: 30px;
+    position: fixed;
+}
+
+.img15{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 11px;
+    margin-top: 100px;
+}
+
+.Calc1 {
+color: #fff;
+position: fixed;
+font-size: 15px;
+margin-top: -15%;
+margin-left: 80px;
+
+}
+
+.Calc2 {
+    color: #fff;
+    position: fixed;
+    font-size: 15px;
+    margin-top: -135px;
+    margin-left: 80px;
+    
+    }
+
+    .Calc3 {
+        color: #fff;
+        position: fixed;
+        font-size: 15px;
+        margin-top: -42px;
+        margin-left: 80px;
+        
+        }
+
+        .Calc4 {
+            color: #fff;
+            position: fixed;
+            font-size: 10px;
+            margin-top: -190px;
+            margin-left: 80px;
+            
+            }
+
+            
+        .Calc5 {
+            color: #fff;
+            position: fixed;
+            font-size: 10px;
+            margin-top: -190px;
+            margin-left: 280px;
+            
+            }
+
+            .Calc6 {
+                color: #fff;
+                position: fixed;
+                font-size: 10px;
+                margin-top: -105px;
+                margin-left: 80px;
+                
+                }
+                .Calc7{
+                    color: #fff;
+                    position: fixed;
+                    font-size: 10px;
+                    margin-top: -105px;
+                    margin-left: 280px;
+                    
+                    }
+
+                    .Calc8{
+                        color: #fff;
+                        position: fixed;
+                        font-size: 10px;
+                        margin-top: -10px;
+                        margin-left: 80px;
+                        
+                        }
+                        
+                    .Calc9{
+                        color: #fff;
+                        position: fixed;
+                        font-size: 10px;
+                        margin-top: -10px;
+                        margin-left: 280px;
+                        
+                        }
+                        .Calc10 {
+                            color: #fff;
+                            position: fixed;
+                            font-size: 15px;
+                            margin-top: -135px;
+                            margin-left: 80px;
+                            
+                            }
+                            .Calc11 {
+                                color: #fff;
+                                position: fixed;
+                                font-size: 15px;
+                                margin-top: -43px;
+                                margin-left: 80px;
+                                
+                                }
+                                .Calc12{
+                                    color: #fff;
+                                    position: fixed;
+                                    font-size: 10px;
+                                    margin-top: -15px;
+                                    margin-left: 280px;
+                                    
+                                    }
+                                    .Calc13{
+                                        color: #fff;
+                                        position: fixed;
+                                        font-size: 10px;
+                                        margin-top: -110px;
+                                        margin-left: 280px;
+                                        
+                                        }
+                                        .Calc14{
+                                            color: #fff;
+                                            position: fixed;
+                                            font-size: 10px;
+                                            margin-top: -110px;
+                                            margin-left: 80px;
+                                            
+                                            }
+                                            .Calc15{
+                                                color: #fff;
+                                                position: fixed;
+                                                font-size: 10px;
+                                                margin-top: -16px;
+                                                margin-left: 80px;
+                    
+                                                
+                                                }
+                                                .Calc16{
+                                                    color: #fff;
+                                                    position: fixed;
+                                                    font-size: 10px;
+                                                    margin-top: 5px;
+                                                    margin-left: 80px;
+                        
+                                                    
+                                                    }
+                                
