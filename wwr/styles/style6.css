@@ -5,9 +5,9 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #4111;
-   
+    background-color: rgba(0, 0, 0, 0.067);
     padding-top: 20px;
+    
 
 }
 
@@ -20,7 +20,7 @@
     font-size: 18px;
     color: #818181;
     display: block;
-    transition: color 0.3s; 
+    transition: color 0.5s;
 }
 
 
@@ -30,13 +30,99 @@
 
 
 .main-content {
-    margin-left: 180px; 
+    margin-left: 180px;
 }
 
 footer {
     margin: 20%;
-    
     margin-left: 38%;
 }
 
+.atividades {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    height: 100%;
+    margin-top: -12px;
+    border-radius: 20px;
+    background-color: #949494;
+    margin-left: 192px;
+    width: 20%;
+}
 
+
+.img10 {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: -10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.img10:hover {
+    transform: scale(1.2);
+}
+
+
+.destaque {
+    z-index: 1;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    /* Cor de fundo suave */
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-card {
+    background-color: #fff;
+    /* Cor do card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    max-width: 400px;
+    /* Largura máxima do card */
+    margin: 0 auto;
+    /* Centraliza o card */
+}
+
+.contact-card h2 {
+    color: #333;
+    /* Cor do título */
+}
+
+.contact-card p {
+    color: #666;
+    /* Cor do texto */
+}
+
+.contact-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-card li {
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+
+}
