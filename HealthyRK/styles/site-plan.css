@@ -55,6 +55,9 @@ img {
   margin: 0 auto;
 }
 
+header, nav, footer {
+  font-family: var(--heading-font);
+}
 h1,
 h2,
 h3,
