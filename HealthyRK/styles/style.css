@@ -4,8 +4,8 @@
       display: block;
       height: auto;
   }
-
-  nav,
+}@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playpen+Sans:wght@300&display=swap');
+nav,
   footer {
       flex-direction: column;
   }
